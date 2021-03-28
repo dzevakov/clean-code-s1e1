@@ -138,7 +138,7 @@
 }
 
 .item > .task-input {
-  width: 226px
+  width: 226px;
 }
 
 .item > .delete:hover {
@@ -163,12 +163,12 @@
 
 /* Edit Task */
 .item .task-input {
-  display: none
+  display: none;
 }
 
 .item.edit-mode .task-input {
   display: inline-block;
-  width: 244px
+  width: 244px;
 }
 
 .item.edit-mode .task-label {
