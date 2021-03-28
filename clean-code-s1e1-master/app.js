@@ -40,7 +40,7 @@ var createNewTaskElement=function(taskString){
   editInput.type="text";
   editInput.className="task";
 
-  editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
+  editButton.innerText="edit"; //innerText encodes special characters, HTML does not.
   editButton.className="edit";
 
   deleteButton.className="delete";
@@ -92,10 +92,10 @@ var editTask=function(){
     //switch to .edit-mode
     //label becomes the inputs value.
     label.innerText=editInput.value;
-    editBtn.innerText="Edit";
+    editBtn.innerText="edit";
   }else{
     editInput.value=label.innerText;
-    editBtn.innerText="Save";
+    editBtn.innerText="save";
   }
 
   //toggle .edit-mode on the parent.
