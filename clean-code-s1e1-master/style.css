@@ -38,6 +38,7 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  text-transform: capitalize;
 }
 
 .task-wrapper {
@@ -67,6 +68,7 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
   outline: none;
+  text-transform: capitalize;
 }
 
 .btn:hover {
@@ -106,7 +108,7 @@
 /* New Task */
 .title-add {
   display: block;
-  margin: 0 0 20px;
+  margin: 16px 0 20px;
 }
 
 .task-add {
